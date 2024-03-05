@@ -14,8 +14,8 @@ with st.sidebar:
     st.text('Toko Sepeda Milik Bangkit \nNama \t\t: Bagas Mujaddid Adyatma \nID Bangkit \t: m004d4ky1573')
 
 #Data awal
-day_df = pd.read_csv(r"C:/Users/bagas/Downloads/Bike-sharing-dataset/day.csv")
-hour_df = pd.read_csv(r"C:/Users/bagas/Downloads/Bike-sharing-dataset/hour.csv")
+day_df = pd.read_csv(r"Dashboard/day.csv")
+hour_df = pd.read_csv(r"Dashboard/hour.csv")
 #Cleaning Data
 day_df['temp'] = day_df['temp'] * 41
 day_df['atemp'] = day_df['atemp'] * 50
